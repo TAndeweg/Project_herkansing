@@ -35,6 +35,9 @@
                 <li class="nav-item">
                     <a class="nav-link text-dark" href="inloggen.php">Aanmelden</a>
                 </li>
+                <li class="nav-item">
+                    <a class="nav-link text-dark" href="hockeyspullen.php">Hockeyspullen toevoegen</a>
+                </li>
             </ul>
 
         </div>
@@ -74,7 +77,7 @@
     <div class="row">
         <div class="col-lg-6 col-md-6 mb-4 mb-md-0">
             <div class="card" style="width: 38rem;">
-               <img src="img/2022%20HDS%20Clubhuis.png" class="card-img-top" alt="..." width="100%">
+                <a href="onzeclub.php"><img src="img/2022%20HDS%20Clubhuis.png" class="card-img-top" alt="..." width="100%"></a>
                 <div class="card-body">
                     <h5 class="card-title">Dit is onze club!</h5>
 

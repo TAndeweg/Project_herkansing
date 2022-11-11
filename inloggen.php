@@ -32,31 +32,34 @@
                 <li class="nav-item">
                     <a class="nav-link text-dark" href="">Aanmelden</a>
                 </li>
+                <li class="nav-item">
+                    <a class="nav-link text-dark" href="hockeyspullen.php">Hockeyspullen toevoegen</a>
+                </li>
             </ul>
         </div>
     </div>
 </nav>
 <div class="container-">
     <div>
-        <img src="img/foto.PNG" alt="" width="100%">
+        <img src="img/2022%20HDS%20Keeper.png" alt="" width="100%">
     </div>
     <div class="container">
-        <h1>Klantgegevens</h1>
-        <form action="Bestellen1.php" method="POST">
+        <h1>Aanmeldgegevens</h1>
+        <form action="customer.php" method="POST">
             Voornaam
             <input class="form-control" type="text">
             Achternaam
             <input class="form-control" type="text">
             Email
             <input class="form-control" type="email">
-            Adrees
+            Adress
             <input class="form-control" type="text">
             Postcode
             <input class="form-control" type="text">
             Woonplaats
             <input class="form-control" type="text">
             <br>
-            <input class="bg-dark text-light" type="submit" name="send" value="ga naar sushi's">
+            <input class="bg-dark text-light" type="submit" name="send" value="Aanmelden">
         </form>
     </div>
     <div class="container-fluid">
