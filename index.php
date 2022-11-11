@@ -69,27 +69,32 @@
     <br>
 </div>
 
-<div class="text-center">
 
-</div>
 <div class="container">
     <div class="row">
-        <div class="row d-flex justify-content-center">
+        <div class="col-lg-6 col-md-6 mb-4 mb-md-0">
+            <div class="card" style="width: 38rem;">
+               <img src="img/2022%20HDS%20Clubhuis.png" class="card-img-top" alt="..." width="100%">
+                <div class="card-body">
+                    <h5 class="card-title">Dit is onze club!</h5>
+
+
+                </div>
+            </div>
         </div>
         <div class="col-lg-6 col-md-6 mb-4 mb-md-0">
             <div class="card" style="width: 38rem;">
                 <a href="inloggen.php"><img src="img/2022%20HDS%20Keeper.png" class="card-img-top" alt="..." width="100%"></a>
                 <div class="card-body">
-                    <h5 class="card-title">Meld je aan!</h5>
-
+                    <h5 class="card-title">Aanmelden?</h5>
 
                 </div>
             </div>
         </div>
     </div>
 </div>
-
 <br>
+
 <div class="container-fluid">
 
     <footer class="bg-dark text-center text-white">
@@ -101,76 +106,82 @@
 
                     <div class="row d-flex justify-content-center">
 
-                        <div class="col-lg-6 col-md-6 mb-4 mb-md-0">
-                            Door Thijs Andeweg
-                        </div>
 
-                    </div>
+                        <section class="">
 
-                    <div class="container-fluid">
-                        <footer class="bg-dark text-center text-white">
-                            <div class="container p-4">
-                                <section class="">
-                                    <form action="">
-                                        <div class="row d-flex justify-content-center">
-                                            <section class="">
-                                                <div class="row">
-                                                    <div class="col-lg-6 col-md-6 mb-4 mb-md-0">
-                                                        <h5 class="text-uppercase">Contactgegevens</h5>
-                                                        <ul class="list-unstyled mb-0">
-                                                            <li>
-                                                                <p>Hockeyclub HDS</p>
-                                                            </li>
-                                                            <li>
-                                                                <p>Appelstraat 1</p>
-                                                            </li>
-                                                            <li>
-                                                                <p>1111AA Fruit</p>
-                                                            </li>
-                                                            <li>
-                                                                <p>HockeyclubHDS@gmail.com</p>
-                                                            </li>
-                                                            <li>
-                                                                <p>06-12345678</p>
-                                                            </li>
-                                                        </ul>
-                                                    </div>
-                                                    <div class="col-lg-6 col-md-6 mb-4 mb-md-0">
-                                                        <h5 class="text-uppercase">openingstijden</h5>
-                                                        <ul class="list-unstyled mb-0">
-                                                            <li>
-                                                                <p>Maandag: 15:00-23:00</p>
-                                                            </li>
-                                                            <li>
-                                                                <p>Dinsdag: 16:00-22:00</p>
-                                                            </li>
-                                                            <li>
-                                                                <p>Wonsdag: 16:00-22:00</p>
-                                                            </li>
-                                                            <li>
-                                                                <p>Donderdag: 16:00-22:00</p>
-                                                            </li>
-                                                            <li>
-                                                                <p>Vrijdag: 15:00-22:00</p>
-                                                            </li>
-                                                            <li>
-                                                                <p>Zrijdag: 10:00-22:00</p>
-                                                            </li>
-                                                            <li>
-                                                                <p>Zondag: 10:00-23:00</p>
-                                                            </li>
-                                                        </ul>
-                                                    </div>
-                                                </div>
-                                            </section>
-                                        </div>
+                            <div class="row">
+
+                                <div class="col-lg-6 col-md-6 mb-4 mb-md-0">
+                                    <h5 class="text-uppercase">Contactgegevens</h5>
+
+                                    <ul class="list-unstyled mb-0">
+                                        <li>
+                                            <p>HockeyclubHDS</p>
+                                        </li>
+                                        <li>
+                                            <p>Appelstraat 1</p>
+                                        </li>
+                                        <li>
+                                            <p>1111AA Fruit</p>
+                                        </li>
+                                        <li>
+                                            <p>HCHDS@gmail.com</p>
+                                        </li>
+                                        <li>
+                                            <p>06-12345678</p>
+                                        </li>
+                                    </ul>
+                                </div>
+
+
+                                <div class="col-lg-6 col-md-6 mb-4 mb-md-0">
+                                    <h5 class="text-uppercase">openingstijden</h5>
+
+                                    <ul class="list-unstyled mb-0">
+                                        <li>
+                                            <p>Maandag: 15:00-:22:00</p>
+                                        </li>
+                                        <li>
+                                            <p>Dinsdag: 16:00-22:00</p>
+                                        </li>
+                                        <li>
+                                            <p>Woensdag: 16:00-22:00</p>
+                                        </li>
+                                        <li>
+                                            <p>Donderdag: 16:00-22:00</p>
+                                        </li>
+                                        <li>
+                                            <p>Vrijdag: 15:00-22:00</p>
+                                        </li>
+                                        <li>
+                                            <p>vrijdag: 15:00-22:00</p>
+                                        </li>
+                                        <li>
+                                            <p>Zaterdag: 10:00-22:00</p>
+                                        </li>
+                                        <li>
+                                            <p>Zondag: 10:00-22:00</p>
+                                        </li>
+                                    </ul>
+
+                                </div>
+
                             </div>
-</body>
-</html>
+
+                            <div class="row d-flex justify-content-center">
+
+                                <div class="col-lg-6 col-md-6 mb-4 mb-md-0">
+                                    Door Thijs Andeweg
+                                </div>
+
+                            </div>
+
+                        </section>
+
+                    </div
 
 
 </body>
 </html>
-
 
 <?php
