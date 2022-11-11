@@ -13,14 +13,13 @@
             crossorigin="anonymous"></script>
 
     <link
-        href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css"
-        rel="stylesheet"
+            href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css"
+            rel="stylesheet"
     />
 </head>
 <body>
 <nav class="navbar navbar-expand-lg bg-dark">
     <div class="container-fluid">
-        <a class="navbar-brand text-light" href="#">Sporten</a>
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
                 aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
@@ -31,9 +30,11 @@
                     <a class="nav-link active text-light" aria-current="page" href="#">Home</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link text-light" href="Bestellen.php">Sports</a>
+                    <a class="nav-link text-light">HCHDS</a>
                 </li>
-
+                <li class="nav-item">
+                    <a class="nav-link text-light" href="inloggen.php">Aanmelden</a>
+                </li>
             </ul>
 
         </div>
@@ -41,10 +42,52 @@
 </nav>
 
 <div>
-    <img src="img/foto.PNG" alt="" width="100%">
+    <img src="img/2022%20HDS%20Jongens.png" alt="" width="100%">
+</div>
+<br>
+
+<div class="text-center">
+    <?php
+
+
+    $todayDate = date("H");
+
+    if ($todayDate >= 6 && $todayDate < 12) {
+
+        echo " <h1>Goedenmorgen, welkom bij HCHDS<h1/>";
+    } else if ($todayDate >= 12 && $todayDate < 18) {
+
+        echo "<h1>Goedenmiddag, welkom bij HCHDS<h1/>";
+    } else if ($todayDate >= 18 && $todayDate < 24) {
+
+        echo "<h1>Goedenavond, welkom bij HCHDS<h1/>";
+    }
+
+
+    ?>
+    <br>
+    <br>
 </div>
 
+<div class="text-center">
 
+</div>
+<div class="container">
+    <div class="row">
+        <div class="row d-flex justify-content-center">
+        </div>
+        <div class="col-lg-6 col-md-6 mb-4 mb-md-0">
+            <div class="card" style="width: 38rem;">
+                <a href="inloggen.php"><img src="img/2022%20HDS%20Keeper.png" class="card-img-top" alt="..." width="100%"></a>
+                <div class="card-body">
+                    <h5 class="card-title">Meld je aan!</h5>
+
+
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
 
 <br>
 <div class="container-fluid">
@@ -64,56 +107,70 @@
 
                     </div>
 
-
-
-
-
-
+                    <div class="container-fluid">
+                        <footer class="bg-dark text-center text-white">
+                            <div class="container p-4">
+                                <section class="">
+                                    <form action="">
+                                        <div class="row d-flex justify-content-center">
+                                            <section class="">
+                                                <div class="row">
+                                                    <div class="col-lg-6 col-md-6 mb-4 mb-md-0">
+                                                        <h5 class="text-uppercase">Contactgegevens</h5>
+                                                        <ul class="list-unstyled mb-0">
+                                                            <li>
+                                                                <p>Hockeyclub HDS</p>
+                                                            </li>
+                                                            <li>
+                                                                <p>Appelstraat 1</p>
+                                                            </li>
+                                                            <li>
+                                                                <p>1111AA Fruit</p>
+                                                            </li>
+                                                            <li>
+                                                                <p>HockeyclubHDS@gmail.com</p>
+                                                            </li>
+                                                            <li>
+                                                                <p>06-12345678</p>
+                                                            </li>
+                                                        </ul>
+                                                    </div>
+                                                    <div class="col-lg-6 col-md-6 mb-4 mb-md-0">
+                                                        <h5 class="text-uppercase">openingstijden</h5>
+                                                        <ul class="list-unstyled mb-0">
+                                                            <li>
+                                                                <p>Maandag: 15:00-23:00</p>
+                                                            </li>
+                                                            <li>
+                                                                <p>Dinsdag: 16:00-22:00</p>
+                                                            </li>
+                                                            <li>
+                                                                <p>Wonsdag: 16:00-22:00</p>
+                                                            </li>
+                                                            <li>
+                                                                <p>Donderdag: 16:00-22:00</p>
+                                                            </li>
+                                                            <li>
+                                                                <p>Vrijdag: 15:00-22:00</p>
+                                                            </li>
+                                                            <li>
+                                                                <p>Zrijdag: 10:00-22:00</p>
+                                                            </li>
+                                                            <li>
+                                                                <p>Zondag: 10:00-23:00</p>
+                                                            </li>
+                                                        </ul>
+                                                    </div>
+                                                </div>
+                                            </section>
+                                        </div>
+                            </div>
 </body>
 </html>
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+</body>
+</html>
 
 
 <?php
