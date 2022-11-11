@@ -18,7 +18,7 @@
     />
 </head>
 <body>
-<nav class="navbar navbar-expand-lg bg-dark">
+<nav class="navbar navbar-expand-lg bg-info">
     <div class="container-fluid">
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
                 aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -27,13 +27,13 @@
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
             <ul class="navbar-nav me-auto mb-2 mb-lg-0">
                 <li class="nav-item">
-                    <a class="nav-link active text-light" aria-current="page" href="#">Home</a>
+                    <a class="nav-link active text-dark" aria-current="page" href="#">Home</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link text-light">HCHDS</a>
+                    <a class="nav-link text-dark">HCHDS</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link text-light" href="inloggen.php">Aanmelden</a>
+                    <a class="nav-link text-dark" href="inloggen.php">Aanmelden</a>
                 </li>
             </ul>
 
@@ -86,7 +86,7 @@
             <div class="card" style="width: 38rem;">
                 <a href="inloggen.php"><img src="img/2022%20HDS%20Keeper.png" class="card-img-top" alt="..." width="100%"></a>
                 <div class="card-body">
-                    <h5 class="card-title">Aanmelden?</h5>
+                    <h5 class="card-title">Direct Aanmelden?</h5>
 
                 </div>
             </div>
@@ -97,7 +97,7 @@
 
 <div class="container-fluid">
 
-    <footer class="bg-dark text-center text-white">
+    <footer class="bg-info text-center text-dark">
 
         <div class="container p-4">
 
@@ -134,37 +134,7 @@
                                 </div>
 
 
-                                <div class="col-lg-6 col-md-6 mb-4 mb-md-0">
-                                    <h5 class="text-uppercase">openingstijden</h5>
 
-                                    <ul class="list-unstyled mb-0">
-                                        <li>
-                                            <p>Maandag: 15:00-:22:00</p>
-                                        </li>
-                                        <li>
-                                            <p>Dinsdag: 16:00-22:00</p>
-                                        </li>
-                                        <li>
-                                            <p>Woensdag: 16:00-22:00</p>
-                                        </li>
-                                        <li>
-                                            <p>Donderdag: 16:00-22:00</p>
-                                        </li>
-                                        <li>
-                                            <p>Vrijdag: 15:00-22:00</p>
-                                        </li>
-                                        <li>
-                                            <p>vrijdag: 15:00-22:00</p>
-                                        </li>
-                                        <li>
-                                            <p>Zaterdag: 10:00-22:00</p>
-                                        </li>
-                                        <li>
-                                            <p>Zondag: 10:00-22:00</p>
-                                        </li>
-                                    </ul>
-
-                                </div>
 
                             </div>
 
